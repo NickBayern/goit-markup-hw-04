@@ -39,6 +39,7 @@ p {
   font-size: 26px;
   line-height: 1.19;
   color: var(--brend-color);
+  margin-right: 94px;
 }
 
 .list {
@@ -69,7 +70,6 @@ p {
 .header-logo {
   font-family: "Raleway", sans-serif;
   color: var(--main-title-color);
-  margin-right: 94px;
 }
 
 .header-list {
