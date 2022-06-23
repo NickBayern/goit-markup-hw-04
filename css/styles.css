@@ -284,6 +284,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  margin-bottom: 16px;
 }
 .team-soc-list {
   display: flex;
@@ -509,7 +510,6 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -523,7 +523,9 @@ p {
 .projects-item:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
-.projects-item:hover .projects-item:focus {
+
+.projects-item:hover,
+.projects-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
