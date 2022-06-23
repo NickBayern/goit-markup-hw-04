@@ -308,7 +308,9 @@ p {
   align-items: center;
   justify-content: center;
 }
-.team-soc-link:hover .team-soc-link:focus {
+
+.team-soc-link:hover,
+.team-soc-link:focus {
   color: #fff;
   fill: currentColor;
   background-color: var(--brend-color);
